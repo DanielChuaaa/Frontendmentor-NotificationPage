@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="card">
+        <div class="container">
+          <div class="notification">
+            <div class="notificationCountParent">
+              <h1>Notifications</h1>
+              <span class="notificationCount" id="notiCountSum">3</span>
+            </div>
+            <button class="markAAread" id="tes" data-color="lightblue">Mark all as read</button>
+          </div>
+        </div>
+
+        <section>
+          <div class="container">
+            <div class="notificationCard margin-top-200">
+              <img src="./assets/images/avatar-mark-webber.webp" alt="mark" width="50px" height="50px" />
+              <div>
+                <p>
+                  <span data-fw="bold" data-hover="hover">Mark Webber </span> <span> reacted to your recent post </span>
+                  <span data-color="semilightblack" data-hover="hover">My first tournament today !</span>
+                  <span class="redDot" id="redDot"></span>
+                </p>
+                <p>
+                  <span data-color="lightblack">1m ago</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="notificationCard">
+              <img src="./assets/images/avatar-angela-gray.webp" alt="angela" width="50px" height="50px" />
+              <div>
+                <p>
+                  <span data-fw="bold" data-hover="hover">Angela Gray</span> <span> followed you </span>
+                  <span class="redDot" id="redDot"></span>
+                </p>
+                <span data-color="lightblack">5m ago</span>
+              </div>
+            </div>
+
+            <div class="notificationCard">
+              <img src="./assets/images/avatar-jacob-thompson.webp" alt="jacob" width="50px" height="50px" />
+              <div>
+                <p>
+                  <span data-fw="bold" data-hover="hover">Jacob Thompson</span> <span>has joined your group </span>
+                  <span data-color="darkblue" data-hover="hover">Chess Club</span>
+                  <span class="redDot" id="redDot"></span>
+                </p>
+                <p>
+                  <span data-color="lightblack">1 days ago</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="notificationCardNoBg">
+              <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="rizky" width="50px" height="50px" />
+              <div>
+                <p><span data-fw="bold" data-hover="hover">Rizky Hasanudin</span> <span>sent you a private message </span></p>
+                <p>
+                  <span data-color="lightblack">5 days ago</span>
+                </p>
+
+                <p class="border">
+                  <span data-color="semilightblack">
+                    Hello, thanks for setting up Chess Club. I've been a member for a few weeks now and I'm already having lots of fun improving my
+                    game.
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <div class="notificationCardNoBg">
+              <img src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly" width="50px" height="50px" />
+              <div class="flexImg">
+                <div>
+                  <p><span data-fw="bold" data-hover="hover">Kimberly Smith</span> <span> commented on your picture </span></p>
+                  <p>
+                    <span data-color="lightblack">1 Week ago</span>
+                  </p>
+                </div>
+                <img src="./assets/images/image-chess.webp" class="sideImg" alt="chess" width="50px" height="50px" />
+              </div>
+            </div>
+
+            <div class="notificationCardNoBg">
+              <img src="./assets/images/avatar-nathan-peterson.webp" alt="nathan" width="50px" height="50px" />
+
+              <div>
+                <p>
+                  <span data-fw="bold" data-hover="hover">Nathan Peterson</span> <span> reacted to your recent post</span>
+                  <span data-color="semilightblack">5 end-game strategies to increase your win rate</span>
+                </p>
+                <p>
+                  <span data-color="lightblack">2 Weeks ago</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="notificationCardNoBg">
+              <img src="./assets/images/avatar-anna-kim.webp" alt="anna" width="50px" height="50px" />
+
+              <div>
+                <p><span data-fw="bold" data-hover="hover">Anna Kim</span> <span> left the group Chess Club</span></p>
+                <p>
+                  <span data-color="lightblack">2 Weeks ago</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
